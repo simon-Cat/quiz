@@ -1,0 +1,61 @@
+:root {
+  --color-black: #000;
+  --color-selected-checkbox: #3300ff;
+  --color-progress-bar-value: #3300ff;
+  --color-try-again-button-background: #3300ff;
+  --color-try-again-button-color: #ffffff;
+  --color-progress-bar-background: #f7f7f7;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+progress,
+progress[role] {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+
+  border: none;
+  background-size: auto;
+}
+
+progress[role]:after {
+  background-image: none;
+}
+
+progress[role] strong {
+  display: none;
+}
+
+input[type="radio"] {
+  appearance: none;
+  margin: 0;
+}
+
+fieldset {
+  appearance: none;
+  border: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
