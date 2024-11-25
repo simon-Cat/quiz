@@ -1,0 +1,35 @@
+.question {
+  height: 100%;
+  animation: goToNextQuestion 0.4s ease forwards;
+}
+
+.question__title {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.question__answerOption {
+  margin-bottom: 20px;
+}
+
+.question__answerOption:last-of-type {
+  margin-bottom: 0;
+}
+
+@keyframes goToNextQuestion {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

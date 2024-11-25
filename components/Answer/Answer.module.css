@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  max-width: 886px;
+  padding: 40px;
+  min-height: 163px;
+  border-radius: 20px;
+}
+
+.container_answer_right {
+  background-color: #e5f5e1;
+}
+
+.container_answer_wrong {
+  background-color: #ffe0e0;
+}
+
+.container__question {
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.container__answer {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+}

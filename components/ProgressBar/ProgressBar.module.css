@@ -1,0 +1,60 @@
+.progressBarContainer {
+}
+
+.progressBarContainer__progress {
+  width: 100%;
+}
+
+.progressBarContainer__progress,
+.progressBarContainer__progress[role][aria-valuenow] {
+  background: var(--color-progress-bar-background) !important;
+  border-radius: 10px;
+  height: 10px;
+}
+
+.progressBarContainer__progress::-webkit-progress-bar {
+  background: var(--color-progress-bar-background);
+  border-radius: 10px;
+  height: 10px;
+}
+
+.progressBarContainer__progress {
+  color: var(--color-progress-bar-value);
+  border-radius: 10px;
+}
+
+.progressBarContainer__progress::-moz-progress-bar {
+  background: var(--color-progress-bar-value);
+  border-radius: 10px;
+  transition: width 0.3s ease;
+}
+
+.progressBarContainer__progress::-webkit-progress-value {
+  background: var(--color-progress-bar-value);
+  border-radius: 10px;
+  transition: width 0.3s ease;
+}
+
+.progressBarContainer__progress[aria-valuenow]:before {
+  background: var(--color-progress-bar-value);
+  border-radius: 10px;
+  transition: width 0.3s ease;
+}
+
+.progressBarContainer__labels {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  top: 5px;
+}
+
+.progressBarContainer__label {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 700;
+  display: block;
+  width: max-content;
+  transition: translate 1.3s ease;
+}
+

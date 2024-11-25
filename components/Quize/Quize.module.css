@@ -1,0 +1,20 @@
+.quize {
+  width: 100%;
+  max-width: 886px;
+  overflow-x: hidden;
+}
+
+.quize__title {
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.quize__questions {
+  height: 528px;
+  border-radius: 20px;
+  background-color: #f7f7f7;
+  padding: 40px;
+  margin-bottom: 20px;
+}
